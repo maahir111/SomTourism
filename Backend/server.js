@@ -23,7 +23,7 @@ const dalxiisModel = require ("./modal/dalxiisModel")
 mongoose.connect("mongodb://localhost:27017/Tourism").then(()=>{
     console.log("database ki waa laxareyyey ")
 }).catch((err)=>{
-    console(err)
+    console.log(err)
 })
 
 //Api post tiiga 
